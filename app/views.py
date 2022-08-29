@@ -7,3 +7,9 @@ from django.contrib import messages
 
 def home(request):
     return render(request, 'app/home.html')
+
+#   VISITA
+
+
+def agendar_visita_terreno(request):
+    return render(request, 'app/visita/agendar_visita_terreno.html')
