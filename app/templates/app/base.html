@@ -26,7 +26,7 @@
 
                 <!-- PESTAÑA DE VISITA EN TERRENO CON SUB MENUS -->
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Visita en Terreno</a>
+                    <a class="nav-link active" aria-current="page" href="{% url 'agendar_visita_terreno' %}">Visita en Terreno</a>
                 </li>
 
                 <!-- PESTAÑA CAPACITACIONES CON SUB MENUS -->
@@ -35,7 +35,7 @@
                     Capacitación
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Crear Capacitación</a></li>
+                        <li><a class="dropdown-item" href="{% url 'crear_capacitacion' %}">Crear Capacitación</a></li>
                         <li><a class="dropdown-item" href="#">Lista de Capacitaciones</a></li>
                     </ul>
                 </li>
@@ -46,7 +46,7 @@
                         Mejoras
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Crear Mejoras</a></li>
+                        <li><a class="dropdown-item" href="{% url 'crear_mejora' %}">Crear Mejoras</a></li>
                         <li><a class="dropdown-item" href="#">Lista de Mejoras</a></li>
                     </ul>
                 </li>
@@ -57,7 +57,7 @@
                         Asesorías
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Solicitar Asesoría</a></li>
+                        <li><a class="dropdown-item" href="{% url 'crear_asesoria' %}">Solicitar Asesoría</a></li>
                         <li><a class="dropdown-item" href="#">Lista de Asesorías</a></li>
                     </ul>
                 </li>

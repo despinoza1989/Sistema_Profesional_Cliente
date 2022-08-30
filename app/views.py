@@ -13,3 +13,23 @@ def home(request):
 
 def agendar_visita_terreno(request):
     return render(request, 'app/visita/agendar_visita_terreno.html')
+
+#  CAPACITACION
+
+def crear_capacitacion(request):
+    return render(request, 'app/capacitacion/crear_capacitacion.html')
+
+#  MEJORA
+
+def crear_mejora(request):
+    return render(request, 'app/mejora/crear_mejora.html')
+
+#  ASESORIA
+
+def crear_asesoria(request):
+    return render(request, 'app/asesoria/crear_asesoria.html')
+
+#   LISTADOS
+
+
+
